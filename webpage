@@ -1,0 +1,4 @@
+import webbrowser
+
+c =input("webapge ")
+webbrowser.open_new_tab(c)
