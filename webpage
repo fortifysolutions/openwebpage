@@ -1,4 +1,10 @@
 import webbrowser
+import time
 
-c =input("webapge ")
+
+print('\n---------------------------------------')
+print('\033[1;31mFORTIFY \033[0mSOLUTIONS')
+print(time.asctime())
+print('\033[31m【W】【e】【b】【P】【a】【g】【e】\n')
+c =input("\033[31mEnter Web Page Address > ")
 webbrowser.open_new_tab(c)
