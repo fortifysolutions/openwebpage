@@ -1,0 +1,4 @@
+import webbrowser
+
+c= input('Enter Web page address >')
+webbrowser.get('firefox').open(c, new=2)
